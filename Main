@@ -1,0 +1,129 @@
+local adwa = Instance.new("ScreenGui")
+local lolwe = Instance.new("Frame")
+local ewqre = Instance.new("Frame")
+local Fly = Instance.new("TextButton")
+local Animations = Instance.new("TextButton")
+local Fling = Instance.new("TextButton")
+local Admin = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local Bypass = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+ 
+ 
+--Properties:
+ 
+adwa.Name = "adwa"
+adwa.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+adwa.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+lolwe.Name = "lolwe"
+lolwe.Parent = adwa
+lolwe.BackgroundColor3 = Color3.fromRGB(203, 46, 255)
+lolwe.BorderSizePixel = 0
+lolwe.Position = UDim2.new(0.0529355146, 0, 0.308764935, 0)
+lolwe.Size = UDim2.new(0, 355, 0, 213)
+lolwe.Draggable = true
+lolwe.Active = true
+ 
+ewqre.Name = "ewqre"
+ewqre.Parent = lolwe
+ewqre.BackgroundColor3 = Color3.fromRGB(147, 27, 186)
+ewqre.BorderSizePixel = 0
+ewqre.Size = UDim2.new(0, 355, 0, 23)
+ 
+Fly.Name = "Aimbot"
+Fly.Parent = lolwe
+Fly.BackgroundColor3 = Color3.fromRGB(141, 37, 167)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0.152112678, 0, 0.234741777, 0)
+Fly.Size = UDim2.new(0, 108, 0, 31)
+Fly.Font = Enum.Font.Cartoon
+Fly.Text = "Aimbot"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 14.000
+Fly.MouseButton1Down:connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/CrCHzAEa", true))()
+end)
+ 
+Animations.Name = "InfJump"
+Animations.Parent = lolwe
+Animations.BackgroundColor3 = Color3.fromRGB(141, 37, 167)
+Animations.BorderSizePixel = 0
+Animations.Position = UDim2.new(0.58309859, 0, 0.234741777, 0)
+Animations.Size = UDim2.new(0, 108, 0, 31)
+Animations.Font = Enum.Font.Cartoon
+Animations.Text = "Infinite Jump"
+Animations.TextColor3 = Color3.fromRGB(0, 0, 0)
+Animations.TextSize = 14.000
+Animations.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/U76Qr4Jr", true))()
+end)
+ 
+Fling.Name = "ESP"
+Fling.Parent = lolwe
+Fling.BackgroundColor3 = Color3.fromRGB(141, 37, 167)
+Fling.BorderSizePixel = 0
+Fling.Position = UDim2.new(0.152112663, 0, 0.455399036, 0)
+Fling.Size = UDim2.new(0, 108, 0, 31)
+Fling.Font = Enum.Font.Cartoon
+Fling.Text = "ESP"
+Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fling.TextSize = 14.000
+Fling.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/X0EwuBWx", true))()
+end)
+ 
+Admin.Name = "Fly"
+Admin.Parent = lolwe
+Admin.BackgroundColor3 = Color3.fromRGB(141, 37, 167)
+Admin.BorderSizePixel = 0
+Admin.Position = UDim2.new(0.58309859, 0, 0.455399036, 0)
+Admin.Size = UDim2.new(0, 108, 0, 31)
+Admin.Font = Enum.Font.Cartoon
+Admin.Text = "Ctrl Shoot Fly"
+Admin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Admin.TextSize = 14.000
+Admin.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/7KNyP13p", true))()
+end)
+ 
+Noclip.Name = "AntiKick"
+Noclip.Parent = lolwe
+Noclip.BackgroundColor3 = Color3.fromRGB(141, 37, 167)
+Noclip.BorderSizePixel = 0
+Noclip.Position = UDim2.new(0.152112663, 0, 0.657276988, 0)
+Noclip.Size = UDim2.new(0, 108, 0, 31)
+Noclip.Font = Enum.Font.Cartoon
+Noclip.Text = "Antikick"
+Noclip.TextColor3 = Color3.fromRGB(0, 0, 0)
+Noclip.TextScaled = false
+Noclip.TextSize = 14.000
+Noclip.TextWrapped = true
+Noclip.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0qNAvUeB", true))()
+end)
+ 
+Bypass.Name = "Rejoin"
+Bypass.Parent = lolwe
+Bypass.BackgroundColor3 = Color3.fromRGB(141, 37, 167)
+Bypass.BorderSizePixel = 0
+Bypass.Position = UDim2.new(0.58309859, 0, 0.657276988, 0)
+Bypass.Size = UDim2.new(0, 108, 0, 31)
+Bypass.Font = Enum.Font.Cartoon
+Bypass.Text = "<Rejoin Game>"
+Bypass.TextColor3 = Color3.fromRGB(0, 0, 0)
+Bypass.TextSize = 14.000
+Bypass.MouseButton1Down:connect(function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/PLL4MH0G", true))()
+end)
+ 
+TextLabel.Parent = lolwe
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.287323952, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 151, 0, 23)
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "Tyler's Gui"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
