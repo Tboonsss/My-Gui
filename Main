@@ -27,7 +27,7 @@ lolwe.Active = true
  
 ewqre.Name = "ewqre"
 ewqre.Parent = lolwe
-ewqre.BackgroundColor3 = Color3.fromRGB(147, 27, 186)
+ewqre.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ewqre.BorderSizePixel = 0
 ewqre.Size = UDim2.new(0, 355, 0, 23)
  
@@ -110,11 +110,11 @@ Bypass.BorderSizePixel = 0
 Bypass.Position = UDim2.new(0.58309859, 0, 0.657276988, 0)
 Bypass.Size = UDim2.new(0, 108, 0, 31)
 Bypass.Font = Enum.Font.Cartoon
-Bypass.Text = "<Rejoin Game>"
+Bypass.Text = "Noclip"
 Bypass.TextColor3 = Color3.fromRGB(0, 0, 0)
 Bypass.TextSize = 14.000
 Bypass.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/PLL4MH0G", true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/Kn94qnr4", true))()
 end)
  
 TextLabel.Parent = lolwe
