@@ -103,18 +103,18 @@ Noclip.MouseButton1Down:connect(function()
     loadstring(game:HttpGet("https://pastebin.com/raw/0qNAvUeB", true))()
 end)
  
-Bypass.Name = "Rejoin"
+Bypass.Name = "Fly"
 Bypass.Parent = lolwe
 Bypass.BackgroundColor3 = Color3.fromRGB(141, 37, 167)
 Bypass.BorderSizePixel = 0
 Bypass.Position = UDim2.new(0.58309859, 0, 0.657276988, 0)
 Bypass.Size = UDim2.new(0, 108, 0, 31)
 Bypass.Font = Enum.Font.Cartoon
-Bypass.Text = "Noclip"
+Bypass.Text = "Fly"
 Bypass.TextColor3 = Color3.fromRGB(0, 0, 0)
 Bypass.TextSize = 14.000
 Bypass.MouseButton1Down:connect(function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/Kn94qnr4", true))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/9aqDF6nw", true))()
 end)
  
 TextLabel.Parent = lolwe
